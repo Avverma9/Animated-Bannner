@@ -1,0 +1,42 @@
+.transparent-header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .transparent-header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .transparent-header nav ul {
+    list-style: none;
+    height: 40px;
+    background-color: rgba(26, 25, 25, 0.192);
+    border-radius: 105px;
+  }
+  
+  .transparent-header nav ul li {
+    display: inline-block;
+    margin-top: 8px;
+  }
+  
+  .transparent-header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .transparent-header nav ul li a {
+    color: white;
+ 
+    text-decoration: none;
+    padding: 10px 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
